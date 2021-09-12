@@ -1,5 +1,4 @@
-function exec() {
-	var result = station.getData();
+import { getData } from "./station12.js";
+	var result = getData();
 	var elem = document.getElementById("result");
-	elem.innerHTML = result;
-}
+  elem.innerHTML = result;
