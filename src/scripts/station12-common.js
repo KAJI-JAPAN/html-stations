@@ -1,3 +1,5 @@
-var result = getData(5);
-var elem = document.getElementById("result");
-elem.innerHTML = result;
+function exec() {
+	var result = station.getData();
+	var elem = document.getElementById("result");
+	elem.innerHTML = result;
+}
