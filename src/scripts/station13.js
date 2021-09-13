@@ -1,5 +1,3 @@
- getData = () => {
-    arrow = () => {
-     return "Allow"
-    } 
+function getData() {
+    return "Arrow";
 }
